@@ -22,8 +22,9 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
-android {
-    namespace "com.example.flutter_application_2"
+android {"
+    namespace "com.example.flutter_application_2" 
+    
     compileSdk flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
